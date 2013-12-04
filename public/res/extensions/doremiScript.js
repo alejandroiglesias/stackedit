@@ -3,10 +3,10 @@ define([
     "underscore",
     "utils",
     "classes/Extension",
-    "fileSystem",
-    "settings",
-    //"text!html/doremiScriptSettingsBlock.html",
-], function($, _, utils, Extension, fileSystem, settings/*, doremiScriptSettingsBlockHTML*/) {
+    // "fileSystem",
+    // "settings",
+    // "text!html/doremiScriptSettingsBlock.html",
+], function($, _, utils, Extension/*, fileSystem, settings, doremiScriptSettingsBlockHTML*/) {
 
     var doremiScript = new Extension("doremiScript", "DoremiScript extension", true);
     //doremiScript.settingsBlock = doremiScriptSettingsBlockHTML;
