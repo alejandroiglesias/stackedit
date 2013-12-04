@@ -37,6 +37,7 @@ define([
     "extensions/welcomeTour",
     "extensions/spellCheck",
     "extensions/userCustom",
+    "extensions/doremiScript",
     "bootstrap",
     "jquery-waitforimages"
 ], function($, _, crel, utils, logger, Extension, settings, settingsExtensionsAccordionHTML) {
